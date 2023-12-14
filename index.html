@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Notes</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>My Notes</h1>
+        </header>
+
+        <section>
+            <form id="noteForm">
+                <textarea id="noteInput" placeholder="Write your note here..."></textarea>
+                <button type="button" onclick="addNote()">Add Note</button>
+            </form>
+        </section>
+
+        <section id="notesList">
+            <!-- Notes will be displayed here -->
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
